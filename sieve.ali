@@ -1,0 +1,110 @@
+V "GNAT Lib v5"
+M P W=b
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U sieve%b		sieve.adb		9a255827 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-calend.ads		20141120112812 d986d312 ada.calendar%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-finali.ads		20140611123707 69f99942 ada.finalization%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strbou.ads		20140731124036 53ab54ae ada.strings.bounded%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20120309145048 a27dcb33 ada.strings.superbounded%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-suteio.ads		20090409150019 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D sieve.adb		20180409161943 c7679e84 sieve%b
+D system.ads		20141031112219 1d274481 system%s
+D s-atocou.ads		20141017084241 cd7c94ca system.atomic_counters%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20140225151139 814daec4 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imglld.ads		20090409150019 f3220969 system.img_lld%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140718101241 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 22|1r6 1r23 2r6 2r31 3r6 3r33 4r6 4r41 5r6 5r31 6r6 6r24 26r31
+X 2 a-calend.ads
+36K13*Calendar 382e17 22|6w10 6r28
+38I9*Time<200I9> 22|14r19 15r17
+52V13*Clock{38I9} 22|25s28 48s26
+97V14*"-"{duration} 22|49s34
+200I9 Time_Rep<long_long_integer>
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 22|2w10 2r35
+X 10 a-string.ads
+16K13*Strings 35e16 22|3r10 3r37 4r10 4r45 5r10 5r35
+X 11 a-strbou.ads
+39K21*Bounded 914e24 22|5w18 5r43
+X 14 a-strunb.ads
+76K21*Unbounded 489e26 22|3w18 3r45 4r18 4r53
+X 15 a-suteio.ads
+39K31*Text_IO 61e34 22|4w28 4r63
+X 17 a-textio.ads
+49K13*Text_IO 471e16 22|1w10 1r27 26r35
+52P9*File_Type 22|13r17
+53n32*Out_File{53E9} 22|26r43
+86U14*Create 22|26s17
+114U14*Set_Output 22|41s17 51s17
+118V13*Standard_Output{52P9} 22|51s28
+166U14*New_Line 22|45s33
+242U14*Put 22|53s17
+263U14*Put_Line 22|19s9 20s9 52s17
+X 18 a-tiinio.ads
+56U14*Get 22|21s9[7|18]
+66U14*Put 22|44s33[7|18]
+X 22 sieve.adb
+8U11*sieve 8b11 55l5 55t10
+9A14 primeArr(integer)<integer> 23r25
+10i9 upper{integer} 21m13 23r37 27r29 30r32 36r56 42r29
+11i9 i{integer} 30r23 30r27 31r34 32r38 35r50 39m25 39r30
+12i9 j{integer} 32m33 34r47 35m41 35r46 36r51
+13p9 outFp{17|52P9} 26m24 26r24 41r28
+14i9 start_t{2|38I9} 25m17 49r36
+15i9 end_t{2|38I9} 48m17 49r28
+16o9 total_t{duration} 49m17 50m17 50r28 53r36
+23a17 prime{9A14} 28m25 31r28 34m41 43r28
+27i21 e{integer} 28r31
+42i21 k{integer} 43r34 44r37
+
